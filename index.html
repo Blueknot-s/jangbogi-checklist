@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오늘 뭐 사지? 장보기 체크리스트</title>
+
+  <!-- ✅ SEO 메타 정보 -->
+  <meta name="title" content="오늘 뭐 사지? 장보기 체크리스트">
+  <meta name="description" content="마트 가기 전 필수 앱! 직접 입력, 템플릿, 체크 기능, 총합 계산, 공유까지 가능한 모바일 웹앱">
+  <meta name="keywords" content="장보기체크리스트, 모바일체크리스트, 다이소, 이마트, 홈플러스, 자취생, 마트앱, 장보기앱">
+
+  <!-- ✅ PWA 관련 -->
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  <meta name="theme-color" content="#3b82f6" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="장보기 체크리스트" />
+
+  <!-- ✅ SNS 공유용 OG 태그 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://checklist-app.vercel.app/" />
+  <meta property="og:title" content="오늘 뭐 사지? 장보기 체크리스트" />
+  <meta property="og:description" content="간편하게 작성하고 장보는 모바일 체크리스트 앱. 직접 입력 + 템플릿 + 공유기능까지!" />
+  <meta property="og:image" content="/icons/icon-512.png" />
+
+  <!-- ✅ 트위터 카드 -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="오늘 뭐 사지? 장보기 체크리스트" />
+  <meta name="twitter:description" content="간편하게 장보기 체크리스트를 만들고 공유하세요. 템플릿과 직접입력 모두 가능!" />
+  <meta name="twitter:image" content="/icons/icon-512.png" />
+</head>
+<body>
+  <noscript>
+    이 웹앱은 자바스크립트가 필요합니다. 사용을 위해 브라우저 설정에서 JavaScript를 활성화해주세요.
+  </noscript>
+
+  <!-- ✅ 앱이 마운트되는 루트 -->
+  <div id="root"></div>
+
+  <!-- ✅ Vite 번들 스크립트 -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
